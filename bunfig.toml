@@ -1,0 +1,12 @@
+jsx = "react-jsx"
+#jsx = "react-jsxDEV"
+jsxImportSource = "hono/jsx"
+logLevel = "warn" # "debug" | "warn" | "error"
+telemetry = false
+
+[test]
+
+
+[install]
+production = false
+auto = "disable"
