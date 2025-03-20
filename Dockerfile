@@ -43,5 +43,6 @@ COPY --from=prerelease /usr/src/app/public public
 
 # run the app
 USER bun
-EXPOSE 3000/tcp
-ENTRYPOINT [ "bun", "run", "server.jsx" ]
+ENV NODE_ENV=production
+EXPOSE 3300/tcp
+ENTRYPOINT [ "bun", "run", "--port=3300", "server.jsx" ]
