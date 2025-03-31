@@ -5,6 +5,10 @@ test("2 + 2", () => {
     expect(2 + 2).toBe(4);
 });
 
+test("add", () => {
+   expect(20 + Number.parseInt(Bun.env.NUM_CLIENTS)).toBe(21)
+});
+
 describe('Example', () => {
     test('GET /', async () => {
         const res = await app.request('/')

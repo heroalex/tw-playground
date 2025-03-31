@@ -59,3 +59,7 @@ button {
 .logoText {
     margin-left: 1em;
 }
+
+.textArea {
+    min-height: 500px;
+}
