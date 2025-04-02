@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="run" type="BunRunConfiguration">
+    <option name="program" value="server.jsx" />
+    <option name="runtimeParameters">
+      <list>
+        <option value="run" />
+        <option value="--hot" />
+      </list>
+    </option>
+    <option name="workingDirectory" value="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>
